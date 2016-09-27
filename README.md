@@ -1,3 +1,3 @@
-# lucky
+# LajiCc
 
-Lucky to have been where I hava been.
+Gogerous my bro.
