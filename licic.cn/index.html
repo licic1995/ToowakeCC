@@ -4,14 +4,12 @@
   <head>
     <meta charset="utf-8">
     <title>licic.cn</title>
-    <link rel="stylesheet" href="css/main.css" >
     <link rel="stylesheet" href="css/font-awesome.css" >
     <link rel="stylesheet" href="css/font-awesome.min.css" >
-    <script src="js/jquery.min.js" charset="utf-8"></script>
-    <script src="js/jquery.poptrox.min.js" charset="utf-8"></script>
-    <script src="js/main.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="css/main.css" >
   </head>
-  <body id="main">
+  <body>
+    <div id="main">
     <header id="header" class="left-head fontSketches header">
       <div class="header-header">
         <a href="#" class="image head-img"><img src="images/head.jpg" alt="" /></a>
@@ -26,7 +24,7 @@
       </div>
       <div id="footer">
         <button class="fa fa-user-circle" ></button>
-        <button class="fa fa-question-circle" ></button>
+        <button class="fa fa-question-circle" id="btn-ask"></button>
       </div>
     </header>
     <div class="mainpage main" >
@@ -35,12 +33,18 @@
     <div class="floor">
 
     </div>
-    <div class="mask">
-
+    <div class="mask" hidden="false" >
+      <div class="float">
+        <img src="images\bg.png" alt="" />
+        <input type="text" name="txt-que" value="" placeholder="Try to be concise.">
+        <button type="button" name="btn-que" id="btn-que">Submit</button>
+      </div>
     </div>
-    <div class="float">
-
     </div>
   </body>
+
+  <script src="js/jquery.min.js" charset="utf-8"></script>
+  <script src="js/jquery.poptrox.min.js" charset="utf-8"></script>
+  <script src="js/main.js" charset="utf-8"></script>
 
 </html>
