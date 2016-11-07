@@ -4,51 +4,15 @@
 }
 .main{
   z-index: 40;
-  clear: both;
-  position: relative;
 }
 .header{
   z-index: 60;
 }
 .mask{
   z-index: 80;
-  background-color: rgba(0, 0, 0, 0.5);
-  border: 1px;
-  position: fixed;
-  left:0;
-  right: 0;
-  bottom: 0;
-  top: 0;
+  background-color: rgba(0, 0, 0, 0.3);
 }
 .float{
-  top: 25%;
-  z-index: 100;
-  position: absolute;
-  height: 50%;
-  width: 50%;
-  left:25%;
-}
-.float img{
-  border: 20px;
-  border-color: white;
-  border-radius: 5%;
-  position: absolute;
-  height: 100%;
-  width: 100%;
-}
-.float input{
-  position: absolute;
-  width: 30%;
-  height: 2em;
-  left: 35%;
-  top: 50%;
-  z-index: 100;
-}
-.float button{
-  position: absolute;
-  width: 30%;
-  left: 35%;
-  top: 60%;
   z-index: 100;
 }
 /* Body css */
@@ -62,13 +26,13 @@
 body{
   font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
   font-size:20px;
-
 }
 
 /* Head css */
 .image.head-img img{
   border-radius: 100%;
   width: 100px;
+  display: block;
 }
 .image {
   border: 0;
@@ -123,7 +87,7 @@ body{
 
   bottom: 0;
   right: 85%;
-  margin-bottom: 10%;
+  margin-bottom: 7%;
   position: fixed;
 }
 
